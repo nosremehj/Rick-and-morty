@@ -1,0 +1,55 @@
+.description{
+    font-size: 20px;
+}
+#descricao{
+    text-align: justify;
+}
+.footer{
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: #333333;
+	clear: both;
+	bottom: 0;
+	left: 0;
+    width: 100%;
+    overflow: auto;
+    padding: 10px 0;
+}
+.contato{
+    text-decoration: underline;
+}
+.footer h4:hover{
+    color: black;
+}
+.footer h4{
+    padding: 0 0 10px 0;
+}
+.footer li{
+    display: inline-block;
+}
+.footer a{
+    display: inline-block;
+}
+.git-hub{
+    background-image: url("../img/github.png");
+    width: 40px;
+    height: 40px;
+}
+.instagram{
+    background-image: url("../img/instagram.png");
+    width: 40px;
+    height: 40px;
+}
+#direitos {
+    padding-top: 4.6em;
+}
+#up{
+    float: right;
+}
+@media all and (max-width:1252px){
+    #direitos {
+        padding-top: 0;
+    }
+}
